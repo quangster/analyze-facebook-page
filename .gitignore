@@ -159,11 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-cookie.txt
 NOTE.txt
 cookies/
-
-data/vebay69/raw/*
-!data/vebay69/raw/page_info.csv
-
-data/vebay69/clean/*
