@@ -472,6 +472,4 @@ emoji_class_lookup = {
     'sx_f21116': 'love',
     'sx_f75acf': 'wow',
     'sx_a70a0c': 'like',
-    'sx_4fa6b0': 'sad',
-    'sx_4fa6b0': 'haha',
 }
