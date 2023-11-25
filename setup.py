@@ -15,5 +15,5 @@ for directory in directories:
     if not os.path.exists(directory):
         os.mkdir(directory)
 
-create_file('cookies/cookies_1.txt')
-create_file('cookies/cookies_2.txt')
+create_file('cookies/cookie_1.txt')
+create_file('cookies/cookie_2.txt')

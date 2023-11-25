@@ -137,7 +137,7 @@ def sleep(seconds):
     Args:
         seconds : Seconds to sleep
     """
-    print(f"Sleep {seconds} seconds")
+    print(f"\tSleep {seconds} seconds")
     time.sleep(seconds)
 
 def get_post_id_list(
