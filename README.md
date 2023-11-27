@@ -1,1 +1,3 @@
-# analyze-facebook-page
+# Analyze Facebook Page
+
+python setup.py
