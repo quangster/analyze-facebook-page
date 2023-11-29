@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import datetime
 import time
+import re
 
 def read_all_file(
     folder_path: str,
@@ -158,3 +159,11 @@ def get_post_id_list(
     if start + length > df.shape[0]:
         return df.iloc[start:]['post_id'].to_list()
     return df.iloc[start:start+length]['post_id'].to_list()
+
+
+def extract_id_from_url(url: str) -> str:
+    id = url.replace("profile.php?id=", "")
+    id = id.replace("https://facebook.com/", "")
+    id = re.search('^([^&]*)', id).group()
+    id = re.search('^([^?]*)', id).group()
+    return id
